@@ -1,0 +1,4 @@
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD-DAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD-BAL.csprojAssemblyReference.cache
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD-BAL.AssemblyInfoInputs.cache
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD-BAL.AssemblyInfo.cs

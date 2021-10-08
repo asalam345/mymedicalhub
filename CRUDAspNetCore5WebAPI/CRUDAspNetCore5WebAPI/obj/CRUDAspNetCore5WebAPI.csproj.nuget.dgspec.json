@@ -1,0 +1,258 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUD-BAL\\CRUD_BAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUD-BAL\\CRUD_BAL.csproj",
+        "projectName": "CRUD_BAL",
+        "projectPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUD-BAL\\CRUD_BAL.csproj",
+        "packagesPath": "C:\\Users\\Mou\\.nuget\\packages\\",
+        "outputPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUD-BAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\CRUD_DAL.csproj": {
+                "projectPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\CRUD_DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI.csproj",
+        "projectName": "CRUDAspNetCore5WebAPI",
+        "projectPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI.csproj",
+        "packagesPath": "C:\\Users\\Mou\\.nuget\\packages\\",
+        "outputPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDAspNetCore5WebAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUD-BAL\\CRUD_BAL.csproj": {
+                "projectPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUD-BAL\\CRUD_BAL.csproj"
+              },
+              "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\CRUD_DAL.csproj": {
+                "projectPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\CRUD_DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "System.Diagnostics.Tools": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\CRUD_DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\CRUD_DAL.csproj",
+        "projectName": "CRUD_DAL",
+        "projectPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\CRUD_DAL.csproj",
+        "packagesPath": "C:\\Users\\Mou\\.nuget\\packages\\",
+        "outputPath": "D:\\Interviewer Projects\\asalam345\\CRUDAspNetCore5WebAPI\\CRUDDAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

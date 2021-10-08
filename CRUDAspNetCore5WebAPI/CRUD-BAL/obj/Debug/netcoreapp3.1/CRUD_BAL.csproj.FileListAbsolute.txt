@@ -1,0 +1,46 @@
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.deps.json
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.json
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.dev.json
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csprojAssemblyReference.cache
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfoInputs.cache
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfo.cs
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CoreCompileInputs.cache
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CopyComplete
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.genruntimeconfig.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.deps.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.dev.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csprojAssemblyReference.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfoInputs.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfo.cs
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CoreCompileInputs.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CopyComplete
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.genruntimeconfig.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.deps.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.dev.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.AssemblyReference.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfoInputs.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfo.cs
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CoreCompileInputs.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CopyComplete
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.genruntimeconfig.cache

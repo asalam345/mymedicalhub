@@ -1,0 +1,195 @@
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\appsettings.json
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.exe
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.deps.json
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.runtimeconfig.json
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.runtimeconfig.dev.json
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\ref\CRUDAspNetCore5WebAPI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csprojAssemblyReference.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.AssemblyInfoInputs.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.AssemblyInfo.cs
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\staticwebassets\CRUDAspNetCore5WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\staticwebassets\CRUDAspNetCore5WebAPI.StaticWebAssets.xml
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\scopedcss\bundle\CRUDAspNetCore5WebAPI.styles.css
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csproj.CopyComplete
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\ref\CRUDAspNetCore5WebAPI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.genruntimeconfig.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Humanizer.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_BAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_DAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_BAL.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_DAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\appsettings.Development.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\appsettings.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.exe
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.deps.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.runtimeconfig.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.runtimeconfig.dev.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\ref\CRUDAspNetCore5WebAPI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Humanizer.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_BAL.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_DAL.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_BAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_DAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csprojAssemblyReference.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.AssemblyInfoInputs.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.AssemblyInfo.cs
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csproj.CoreCompileInputs.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\staticwebassets\CRUDAspNetCore5WebAPI.StaticWebAssets.Manifest.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\staticwebassets\CRUDAspNetCore5WebAPI.StaticWebAssets.xml
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\scopedcss\bundle\CRUDAspNetCore5WebAPI.styles.css
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.RazorTargetAssemblyInfo.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csproj.CopyComplete
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\ref\CRUDAspNetCore5WebAPI.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.genruntimeconfig.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\appsettings.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.exe
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.deps.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.runtimeconfig.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.runtimeconfig.dev.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\ref\CRUDAspNetCore5WebAPI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUDAspNetCore5WebAPI.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Humanizer.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_BAL.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_DAL.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_BAL.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\bin\Debug\net5.0\CRUD_DAL.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csproj.AssemblyReference.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.AssemblyInfoInputs.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.AssemblyInfo.cs
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csproj.CoreCompileInputs.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\staticwebassets\CRUDAspNetCore5WebAPI.StaticWebAssets.Manifest.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\staticwebassets\CRUDAspNetCore5WebAPI.StaticWebAssets.xml
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\scopedcss\bundle\CRUDAspNetCore5WebAPI.styles.css
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.RazorTargetAssemblyInfo.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.csproj.CopyComplete
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\ref\CRUDAspNetCore5WebAPI.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDAspNetCore5WebAPI\obj\Debug\net5.0\CRUDAspNetCore5WebAPI.genruntimeconfig.cache

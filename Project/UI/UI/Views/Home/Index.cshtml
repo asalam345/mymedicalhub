@@ -1,0 +1,109 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Home Page";
+}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Signin Template for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/css/signin.css" rel="stylesheet" />
+</head>
+
+<body class="text-center">
+    <div class="form-signin">
+        <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <label for="inputEmail" class="sr-only">Email/Mobile</label>
+        <input type="text" id="inputEmail" name="user" class="form-control" placeholder="Email/Mobile" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button id="signIn" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script>
+        $("#signIn").click(function () {
+            var emailOrMobile = $('#inputEmail').val();
+            var password = $('#inputPassword').val();
+            var url = "https://localhost:44362/api/UserDetails/";
+            //data = { emailOrMobile: "a", password: "a" };
+            
+            var user = {
+                emailOrMobile: emailOrMobile, password: password
+            };
+            console.log(JSON.stringify(user));
+            //var settings = {
+            //    'cache': false,
+            //    'dataType': "json",
+            //    "async": true,
+            //    "crossDomain": true,
+            //    "url": url,
+            //    "data": data, 
+            //    "contentType": 'application/json; charset=utf-8',
+            //    "method": "POST",
+            //    "headers": {
+            //        "accept": "application/json",
+            //        "Access-Control-Allow-Origin": "*"
+            //    }
+            //}
+
+            //$.ajax(settings).done(function (response) {
+            //    console.log(response);
+
+            //});
+            //$.post(url, { emailOrMobile: "a", password: "a" }, function (data) {
+            //    $("#inputEmail").html(data);
+            //});
+            $.ajax({
+                url: url,
+                type: 'POST',
+                //crossDomain: true,
+                data: JSON.stringify(user), //JSON.stringify({ user }), //{ emailOrMobile: name, password: password },
+                //async: true,
+                //contentType: "application/json",
+                contentType: 'application/json; charset=utf-8',
+                //contentType: "text",
+                dataType: 'json',
+                headers: {
+                    "accept": "application/json",
+                    "Access-Control-Allow-Origin": "*"
+                },
+                success: function (data, status) {
+                    console.log(data, status);
+                } // End of success function of ajax form
+            }); // End of ajax call
+
+            //$.post("https://localhost:44362/api/UserDetails/",
+            //    {
+            //        emailOrMobile: name,
+            //        password: password
+            //    },
+            //    function (data, status) {
+            //        console.log(data, status);
+            //        alert("Data: " + data + "\nStatus: " + status);
+            //    });
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,37 @@
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.deps.json
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.json
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.dev.json
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csprojAssemblyReference.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfoInputs.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfo.cs
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csproj.CoreCompileInputs.cache
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.dll
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.pdb
+C:\Users\MudassirAliKhan\source\repos\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.genruntimeconfig.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.deps.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.dev.json
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csprojAssemblyReference.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfoInputs.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfo.cs
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csproj.CoreCompileInputs.cache
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.dll
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.pdb
+F:\111-PakSoftValley Technologies\114-Website Development\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.genruntimeconfig.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.deps.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.dev.json
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfoInputs.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfo.cs
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csproj.CoreCompileInputs.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.dll
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.pdb
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.genruntimeconfig.cache
+D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csproj.AssemblyReference.cache
