@@ -35,3 +35,16 @@ D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcor
 D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.pdb
 D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.genruntimeconfig.cache
 D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csproj.AssemblyReference.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.deps.json
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.json
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.runtimeconfig.dev.json
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfoInputs.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.AssemblyInfo.cs
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csproj.CoreCompileInputs.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.pdb
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.genruntimeconfig.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUDDAL\obj\Debug\netcoreapp3.1\CRUD_DAL.csproj.AssemblyReference.cache

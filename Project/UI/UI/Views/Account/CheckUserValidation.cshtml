@@ -1,0 +1,80 @@
+﻿@{
+    Layout = null;
+    ViewData["Title"] = "Validation Page";
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+	<title>Signin Template for Bootstrap</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+	<!-- Bootstrap core CSS -->
+	<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- Custom styles for this template -->
+	<link href="~/css/signin.css" rel="stylesheet" />
+</head>
+
+<body class="text-center">
+	<input type="text" id="txtValidation" />
+	<button onclick="CheckValidation()">Submit</button>
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	<script src="~/js/jquery.cookie.js"></script>
+	<script>
+		//var cookieData = $.cookie("you");
+		
+		//console.log(cookieData);
+		
+		//var obj = JSON.parse(arr, function (key, value) {
+		//	console.log(key, value);
+		//	if (key == "id") {
+		//		return value.toUpperCase();
+		//	} else {
+		//		return value;
+		//	}
+		//});
+		//console.log(arr);
+		//console.log(arr.id);
+		
+		function CheckValidation() {
+			var txt = $('#txtValidation').val();
+			var url = "https://localhost:44362/api/Auth/CheckValidation";
+			var cookieData = $.cookie("you");
+			var arr = JSON.parse(JSON.parse(cookieData));
+			var userVm = {
+				id: arr.id, device: 'M', confirmCode: txt
+			};
+			$.ajax({
+				url: url,
+				type: 'POST',
+				data: JSON.stringify(userVm),
+				contentType: 'application/json; charset=utf-8',
+				//contentType: "text",
+				dataType: 'json',
+				headers: {
+					"accept": "application/json",
+					"Access-Control-Allow-Origin": "*"
+				},
+				success: function (data, status) {
+					//console.log(data, status);
+					var d = JSON.stringify(data);
+					//console.log(d);
+					var dd = JSON.parse(JSON.parse(d));
+					var base_url = window.location.origin;
+					if (dd.Id > 0) window.open(base_url + '/Home/Calendar', "_self");
+					//$.cookie("name", null, { path: '/' });
+					//$.cookie("you", data, { expires: 10 });
+				} // End of success function of ajax form
+			}); // End of ajax call
+		}
+	</script>
+</body>
+</html>

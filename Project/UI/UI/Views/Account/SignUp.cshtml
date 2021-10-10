@@ -1,0 +1,141 @@
+﻿@{
+	Layout = null;
+	ViewData["Title"] = "Home Page";
+}
+
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+	<title>Signin Template for Bootstrap</title>
+
+	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+	<!-- Bootstrap core CSS -->
+	<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+
+	<!-- Custom styles for this template -->
+	<link href="~/css/signin.css" rel="stylesheet" />
+	<style>
+		/*[type=radio] {
+			position: absolute;
+			opacity: 0;
+			width: 0;
+			height: 0;
+		}*/
+		[type=radio] {
+			margin-left:10px;
+		}
+			/* IMAGE STYLES */
+			[type=radio] + label {
+				cursor: pointer;
+			}
+
+			/* CHECKED STYLES */
+			[type=radio]:checked + label {
+				outline: 2px solid #f00;
+
+			}
+	</style>
+</head>
+
+<body class="text-center">
+	<div class="form-signin">
+		<img class="mb-4" src="~/images/logo.png" alt="" width="200" height="72">
+		<h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
+		
+		<div style="display: flex; flex-direction: row; justify-content: flex-start; " id="divMemeberType"><span style="margin-right:10px;">Signup As A</span></div>
+		
+		<label for="inputEmail" class="sr-only">Email</label>
+		<input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email" required autofocus>
+		<label for="inputMobile" class="sr-only">Mobile</label>
+		<input type="tel" id="inputMobile" name="mobile" class="form-control" placeholder="Mobile" required>
+		<label for="inputName" class="sr-only">Name</label>
+		<input type="text" id="inputName" name="name" class="form-control" placeholder="Name" required>
+		<label for="inputPassword" class="sr-only">Password</label>
+		<input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+		<label for="inputConfirmPassword" class="sr-only">Confirm Password</label>
+		<input type="password" id="inputConfirmPassword" name="confirmpassword" class="form-control" placeholder="Confirm Password" required>
+		<button id="signUp" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+		<p class="mt-5 mb-3 text-muted">Have An Account Please <a asp-controller="Account" asp-action="Index">Sign In</a></p>
+		<p class="mt-5 mb-3 text-muted">&copy; 2021</p>
+	</div>
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	<script src="~/js/jquery.cookie.js"></script>
+	<script>
+		$(document).ready(function () {
+			var url = "https://localhost:44362/api/Role/GetRoles";
+			$.get(url, function (data) {
+				var obj = jQuery.parseJSON(data);
+				console.log(obj);
+
+				//$('#divMemeberType').empty();
+				let radio_name = 'userRole';
+				let isChk = 'checked';
+				let i = 0;
+				for (var d of obj) {
+					if (i == 0) isChk = 'checked'; else isChk = '';
+					$('<label><input type="radio" value="' + d.Id + '" name="' + radio_name + '"' + isChk + '/>' + d.Title + '</label>').appendTo('#divMemeberType');
+					i++;
+				}
+			});
+		});
+		$("#signUp").click(function () {
+            var email = $('#inputEmail').val();
+            var password = $('#inputPassword').val();
+            var mobile = $('#inputMobile').val();
+			var name = $('#inputName').val();
+			var cpassword = $('#inputConfirmPassword').val();
+			var userRole = $('input[name="userRole"]:checked').val();
+			var url = "https://localhost:44362/api/Auth/AddUser";
+            if (password === cpassword) {
+                var user = {
+					email: email, mobile: mobile, fullname: name, password: password, userRole: userRole
+                };
+				//var user = {
+				//	"": email, "": mobile, "": name, "": password
+				//};
+                $.ajax({
+                    url: url,
+                    type: 'POST',
+                    //crossDomain: true,
+					data: JSON.stringify(user),
+                    //async: true,
+                    //contentType: "application/json",
+                    contentType: 'application/json; charset=utf-8',
+                    //contentType: "text",
+                    dataType: 'json',
+                    headers: {
+                        "accept": "application/json",
+                        "Access-Control-Allow-Origin": "*"
+                    },
+                    success: function (data, status) {
+						console.log(data, status);
+						var objData = JSON.stringify(data);
+						if (data != null) {
+							$.cookie("you", objData, { expires: 10 });
+							var base_url = window.location.origin;
+							window.open(base_url + '/Account/CheckUserValidation', "_self");
+						}
+						else {
+							alert('Invalid Data!');
+						}
+                    } // End of success function of ajax form
+                }); // End of ajax call
+
+               
+            }
+            else {
+
+			}
+        });
+	</script>
+</body>
+</html>
+

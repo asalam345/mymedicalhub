@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CRUD_DAL.Repository
 {
-    public class RepositoryUser : IRepository<User>
+    public class RepositoryUser : IRepository<User>, IUser
     {
         ApplicationDbContext _dbContext;
         public RepositoryUser(ApplicationDbContext applicationDbContext)
@@ -20,7 +20,11 @@ namespace CRUD_DAL.Repository
         {
             var obj = await _dbContext.Users.AddAsync(_object);
             _dbContext.SaveChanges();
-            return obj.Entity;
+            if (obj.Entity.Id > 0)
+			{
+                return obj.Entity;
+            }
+            return null;           
         }
 
         public void Delete(User _object)
@@ -35,7 +39,7 @@ namespace CRUD_DAL.Repository
             {
                 return _dbContext.Users.Where(x => x.IsDeleted == false).ToList();
             }
-            catch (Exception ee)
+            catch (Exception ex)
             {
                 throw;
             }
@@ -51,7 +55,46 @@ namespace CRUD_DAL.Repository
             _dbContext.Users.Update(_object);
             _dbContext.SaveChanges();
         }
+       
+		public User IsExists(User user)
+		{
+            return _dbContext.Users.Where(x => x.Email == user.Email && x.Mobile == user.Mobile).FirstOrDefault();
+        }
 
+		public bool IsCodeExists(RegConfirmation regCon)
+		{
+            var row = _dbContext.RegConfirmations.Where(w => w.UserId == regCon.UserId && w.Device == regCon.Device && w.Code == regCon.Code).FirstOrDefault();
+            if (row == null) return false;
+            return true;
+        }
+
+		public async Task<RegConfirmation> Create(RegConfirmation regCon)
+		{
+			try
+			{
+                var obj = await _dbContext.RegConfirmations.AddAsync(regCon);
+                _dbContext.SaveChanges();
+                return obj.Entity;
+            }
+			catch (Exception ex)
+			{
+                return null;
+			}
+        }
+
+		public RegConfirmation Update(RegConfirmation regCon)
+		{
+            try
+            {
+                var obj = _dbContext.RegConfirmations.Update(regCon);
+                _dbContext.SaveChanges();
+                return obj.Entity;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
         //public UserWithRoel GetUserWithRole()
     }
 }

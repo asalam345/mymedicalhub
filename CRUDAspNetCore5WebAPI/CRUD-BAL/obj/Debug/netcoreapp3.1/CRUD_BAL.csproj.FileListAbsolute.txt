@@ -44,3 +44,19 @@ D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netco
 D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.dll
 D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.pdb
 D:\Interviewer Projects\asalam345\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.genruntimeconfig.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.deps.json
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.json
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.runtimeconfig.dev.json
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_BAL.pdb
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\bin\Debug\netcoreapp3.1\CRUD_DAL.pdb
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.AssemblyReference.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfoInputs.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.AssemblyInfo.cs
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CoreCompileInputs.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.csproj.CopyComplete
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.pdb
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\CRUD-BAL\obj\Debug\netcoreapp3.1\CRUD_BAL.genruntimeconfig.cache

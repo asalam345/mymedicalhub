@@ -13,33 +13,17 @@ namespace CRUDAspNetCore5WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserDetailsController : ControllerBase
+    public class UserController : ControllerBase
     {
         private readonly UserService _userService;
+        private readonly RoleEnrollService _roleEnrollService;
 
-        private readonly IRepository<User> _User;
-
-        public UserDetailsController(IRepository<User> User, UserService ProductService)
+        public UserController(UserService userService, RoleEnrollService roleEnrollService)
         {
-            _userService = ProductService;
-            _User = User;
-
+            _userService = userService;
+            _roleEnrollService = roleEnrollService;
         }
-        //Add User
-        [HttpPost("AddUser")]
-        public async Task<Object> AddUser([FromBody] User user)
-        {
-            try
-            {
-                await _userService.AddUser(user);
-                return true;
-            }
-            catch (Exception)
-            {
-
-                return false;
-            }
-        }
+       
         //Delete User
         [HttpDelete("DeleteUser")]
         public bool DeleteUser(string UserEmail)
@@ -68,18 +52,7 @@ namespace CRUDAspNetCore5WebAPI.Controllers
                 return false;
             }
         }
-        [HttpPost]
-        public Object LoginUser(UserVM user)
-        {
-            var data = _userService.GetUserByEmailOrMobileAndPassword(user.emailOrMobile, user.password);
-            var json = JsonConvert.SerializeObject(data, Formatting.Indented,
-                new JsonSerializerSettings()
-                {
-                    ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-                }
-            );
-            return json;
-        }
+       
         //GET All User by Name
         //[HttpGet("GetAllUserByName")]
         //public Object GetAllUserByName(string emailOrMobile, string password)

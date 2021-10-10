@@ -14,26 +14,32 @@ namespace CRUD_DAL.Models
         public int Id { get; set; }
 
         [Required]
-        [Display(Name = "UserName")]
-        public string UserName { get; set; }
+        [Display(Name = "FullName")]
+        public string FullName { get; set; }
 
         [Required]
-        [Display(Name = "UserPassword")]
-        public string UserPassword { get; set; }
+        [Display(Name = "Password")]
+        public string Password { get; set; }
         [Required]
-        [Display(Name = "UserEmail")]
-        public string UserEmail { get; set; }
+        [Display(Name = "Email")]
+        public string Email { get; set; }
         [Required]
         [Display(Name = "Mobile")]
         public string Mobile { get; set; }
 
         [Required]
-        [Display(Name = "CreatedOn")]
+        [Display(Name = "Created On")]
         public DateTime CreatedOn { get; set; } = DateTime.Now;
 
         [Required]
-        [Display(Name = "IsDeleted")]
+        [Display(Name = "Is Deleted?")]
         public bool IsDeleted { get; set; } = false;
+        [Required]
+        [Display(Name = "Is IsEmail Confirm?")]
+        public bool IsEmailConfirm { get; set; } = false;
+        [Required]
+        [Display(Name = "Is Mobile Confirm?")]
+        public bool IsMobileConfirm { get; set; } = false;
 
     }
 }

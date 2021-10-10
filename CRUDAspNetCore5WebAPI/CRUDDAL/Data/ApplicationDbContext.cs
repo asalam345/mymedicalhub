@@ -24,5 +24,6 @@ namespace CRUD_DAL.Data
         public DbSet<Prescription> Prescriptions { get; set; }
         public DbSet<Role> Roles { get; set; }
         public DbSet<RoleEnrollment> RoleEnrollments { get; set; }
+        public DbSet<RegConfirmation> RegConfirmations { get; set; }
     }
 }

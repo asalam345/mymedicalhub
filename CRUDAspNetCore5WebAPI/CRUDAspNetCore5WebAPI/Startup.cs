@@ -36,24 +36,36 @@ namespace CRUDAspNetCore5WebAPI
             services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(_configuration.GetConnectionString("DefaultConnection")));
             //services.AddControllers();
             services.AddHttpClient();
+            services.Configure<MailSettings>(_configuration.GetSection("MailSettings"));
+            services.AddTransient<IMailService, MailService>();
             services.AddTransient<IRepository<User>, RepositoryUser>();
+            services.AddTransient<IUser, RepositoryUser>();
+            services.AddTransient<IRepository<Role>, RepositoryRole>();
             services.AddTransient<UserService, UserService>();
+            services.AddTransient<RoleService, RoleService>();
+            services.AddTransient<RoleEnrollService, RoleEnrollService>();
+            services.AddTransient<IRepository<RoleEnrollment>, RepositoryUserRoleEnroll>();
             services.AddCors(options =>
-            {
-                options.AddDefaultPolicy(
-                    builder =>
-                    {
-                        builder.WithOrigins("*");
-                    });
-            });
-            services.AddControllers();
+			{
+				options.AddDefaultPolicy(
+					builder =>
+					{
+						builder.WithOrigins("*");
+					});
+			});
+			services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MyMedicalhubAPI", Version = "v1" });
+                c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
             });
 
-            
-        }
+			//services.AddCors(c =>
+			//{
+			//	c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+			//});
+
+		}
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -62,7 +74,7 @@ namespace CRUDAspNetCore5WebAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "MyMedicalhubAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("https://localhost:44362/swagger/v1/swagger.json", "MyMedicalhubAPI v1"));
             }
             app.UseCors(x => x
           .AllowAnyOrigin()
@@ -73,11 +85,20 @@ namespace CRUDAspNetCore5WebAPI
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseDeveloperExceptionPage();
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+			app.UseEndpoints(endpoints =>
+			{
+				endpoints.MapControllers();
+			});
+			//app.UseEndpoints(endpoints =>
+   //         {
+   //             endpoints.MapControllerRoute(name: "role",
+   //                         pattern: "role",
+   //                         defaults: new { controller = "Role", action = "Index" });
+   //             endpoints.MapControllerRoute(name: "default",
+   //                         pattern: "{controller=UserDetails}/{action=Index}/{id?}");
+   //         });
         }
     }
 }
