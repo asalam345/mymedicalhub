@@ -38,7 +38,7 @@ namespace CRUDAspNetCore5WebAPI
             services.AddHttpClient();
             services.Configure<MailSettings>(_configuration.GetSection("MailSettings"));
             services.AddTransient<IMailService, MailService>();
-            services.AddTransient<IRepository<User>, RepositoryUser>();
+            services.AddScoped<IRepository<User>, RepositoryUser>();
             services.AddTransient<IUser, RepositoryUser>();
             services.AddTransient<IRepository<Role>, RepositoryRole>();
             services.AddTransient<UserService, UserService>();

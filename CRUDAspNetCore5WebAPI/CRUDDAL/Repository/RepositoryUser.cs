@@ -1,6 +1,7 @@
 ﻿using CRUD_DAL.Data;
 using CRUD_DAL.Interface;
 using CRUD_DAL.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,7 +48,7 @@ namespace CRUD_DAL.Repository
 
         public User GetById(int Id)
         {
-            return _dbContext.Users.Where(x => x.IsDeleted == false && x.Id == Id).FirstOrDefault();
+            return _dbContext.Users.Where(x => x.IsDeleted == false && x.Id == Id).AsNoTracking().FirstOrDefault();
         }
 
         public void Update(User _object)

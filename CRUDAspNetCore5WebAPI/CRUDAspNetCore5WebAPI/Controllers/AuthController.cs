@@ -103,18 +103,20 @@ namespace CRUDAspNetCore5WebAPI.Controllers
             };
 			if (_userService.DeviceConfirm(regCon))
 			{
-                User user = new User()
+                var user = _userService.GetUserByUserId(userVm.id);
+                User updateData = new User()
                 {
                     Id = userVm.id,
-                    Email = userVm.email,
-                    Mobile = userVm.mobile,
-                    Password = userVm.password,
+                    Email = user.Email,
+                    Mobile = user.Mobile,
+                    Password = user.Password,
+                    FullName = user.FullName,
                     IsEmailConfirm = true
                 };
-                var updateUser = _userService.UpdateUser(user);
+                var updateUser = _userService.UpdateUser(updateData);
                 if(updateUser)
 				{
-                    return LoginUser(new UserVM() { emailOrMobile = userVm.email, password = userVm.password, role = userVm.role });
+                    return LoginUser(new UserVM() { emailOrMobile = user.Email, password = user.Password });
                 }
             }
 

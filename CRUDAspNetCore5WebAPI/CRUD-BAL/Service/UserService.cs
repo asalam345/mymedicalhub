@@ -20,9 +20,10 @@ namespace CRUD_BAL.Service
             _iUser = iUser;
         }
         //Get User Details By User Id
-        public IEnumerable<User> GetUserByUserId(int userId)
+        public User GetUserByUserId(int userId)
         {
-            return _user.GetAll().Where(x => x.Id == userId).ToList();
+            //return _user.GetAll().Where(x => x.Id == userId).ToList();
+            return _user.GetById(userId);
         }
         //GET All Perso Details 
         public IEnumerable<User> GetAllUsers()
@@ -101,7 +102,7 @@ namespace CRUD_BAL.Service
                 _user.Update(user);
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return true;
             }
