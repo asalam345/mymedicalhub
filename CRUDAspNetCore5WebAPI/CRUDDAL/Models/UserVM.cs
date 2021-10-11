@@ -18,8 +18,9 @@ namespace CRUD_DAL.Models
         public string fullname { get; set; }
         public string password { get; set; }
         public string confirmCode { get; set; }
-        public int userRole { get; set; }
         public char device { get; set; }
-        public int role { get; set; }
+        //public int role { get; set; }
+        public int userRole { get; set; }
+        public string roleName { get; set; }
     }
 }

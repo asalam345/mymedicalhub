@@ -36,6 +36,7 @@
 			<label>
 				<input type="checkbox" value="remember-me"> Remember me
 			</label>
+			<a href="">Forget Password?</a>
 		</div>
 		<button id="signIn" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 		<p class="mt-5 mb-3 text-muted">No Account Please <a asp-controller="Account" asp-action="Signup">Sign Up</a></p>
@@ -71,7 +72,7 @@
 
 					var dd = JSON.parse(JSON.parse(objData));
 					var base_url = window.location.origin;
-					if (dd.Id > 0) {
+					if (dd.id > 0) {
 						$.cookie("you", objData, { expires: 10 });
 						window.open(base_url + '/Home/Calendar', "_self");
 					}

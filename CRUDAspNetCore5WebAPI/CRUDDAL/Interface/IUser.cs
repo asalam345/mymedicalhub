@@ -12,5 +12,6 @@ namespace CRUD_DAL.Interface
 		bool IsCodeExists(RegConfirmation regCon);
 		Task<RegConfirmation> Create(RegConfirmation regCon);
 		RegConfirmation Update(RegConfirmation regCon);
+		SignUpUserVM GetUserWithRole(int? userId, string emailOrMobile, string password);
 	}
 }

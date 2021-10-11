@@ -38,9 +38,10 @@ namespace CRUD_BAL.Service
             }
         }
         //Get User by User Name
-        public User GetUserByEmailOrMobileAndPassword(string emailOrMobile, string password)
+        public SignUpUserVM GetUserByEmailOrMobileAndPassword(string emailOrMobile, string password)
         {
-            return _user.GetAll().Where(x => ((x.Email == emailOrMobile && x.IsEmailConfirm == true) || (x.Mobile == emailOrMobile && x.IsMobileConfirm == true)) && x.Password == password).FirstOrDefault();
+            //return _user.GetAll().Where(x => ((x.Email == emailOrMobile && x.IsEmailConfirm == true) || (x.Mobile == emailOrMobile && x.IsMobileConfirm == true)) && x.Password == password).FirstOrDefault();
+            return _iUser.GetUserWithRole(null, emailOrMobile, password);
         }
         //Add User
         public async Task<SignUpUserVM> AddUser(SignUpUserVM userVm)

@@ -1,74 +1,98 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - UI</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - UI</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		  rel="stylesheet" />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+		  rel="stylesheet" />
+	<link href="~/dashboard/css/style.css" rel="stylesheet" />
+	<link href="~/dashboard/css/utilities.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">UI</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - UI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+	<!-- side navbar -->
+	<nav>
+		<button class="close-nav"><i class="fas fa-times"></i></button>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script>
-        function getMyInfo(){
-            alert();
-        }
-        $(function () {
-            $('input[name="daterange"]').daterangepicker({
-                opens: 'left'
-            }, function (start, end, label) {
-                console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
-                diff = new Date(end - start),
-                    days = diff / 1000 / 60 / 60 / 24;
-                //alert(Math.round(days));
-                for (let i = 0; i <= days; i++) {
-                    //jQuery('<div id="a1"></div>').html("<font color=green>PID :</font>" + data["pid"]);
-                    //$("<div>").attr({
-                    //    'class': "col-md-1",
-                    //    'onClick': "getMyInfo;"
-                    //}).appendTo("#calendarUi");
-                    $("#calendarUi").append("<div class='col-md-1' onClick='getMyInfo()'> " + i.toString() + " </div>");
-                }
-            });
-        });
-    </script>
-    @await RenderSectionAsync("Scripts", required: false)
+		<div id="nav-items-container"></div>
+	</nav>
+
+
+	<main role="main" class="pb-3">
+		<header class="d-flex space-between">
+			<div class="d-flex">
+				<button id="btn-menu">
+					<i class="fas fa-bars"></i>
+				</button>
+				<h2>MY Medical HUB</h2>
+			</div>
+
+			<ul>
+				<li onclick="Logout()" style="cursor:pointer">
+					<i class="fas fa-sign-out-alt"></i>
+					Logout
+				</li>
+				<li>
+					<i class="fas fa-user"></i>
+					hi! <span id="yourName"></span>
+				</li>
+			</ul>
+		</header>
+		@RenderBody()
+	</main>
+	@*<main >
+			@RenderBody()
+		</main>*@
+
+	<footer class="border-top footer text-muted">
+		<div class="container">
+			&copy; 2021 - UI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+		</div>
+	</footer>
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+
+	<script src="~/dashboard/js/sidebar-data.js"></script>
+
+	<script src="~/caledar/script.js"></script>
+	<script src="~/js/jquery.cookie.js"></script>
+	@*<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>*@
+	<script>
+		var base_url = window.location.origin;
+		$(document).ready(function () {
+			var cookieData = $.cookie("you");
+			if (cookieData == undefined) window.open(base_url, "_self");
+			else {
+				var arr = JSON.parse(JSON.parse(cookieData));
+				if (arr == null) window.open(base_url, "_self");
+				console.log(arr);
+				
+				var sidebar = [];
+				if (arr.roleName == 'Doctor') {
+					sidebar = sidebarDoctor;
+				}
+				else {
+					sidebar = sidebarPatient;
+				}
+				console.log(sidebar);
+				initNavItem(sidebar);
+				$('#yourName').text(arr.fullname);
+			}
+		});
+		function Logout() {
+			//$.removeCookie('you');
+			$.cookie("you", '', { path: '/', expires: -1 });
+			window.open(base_url, "_self");
+		}
+	</script>
+	<script src="~/dashboard/js/index.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

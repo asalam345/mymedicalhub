@@ -96,6 +96,28 @@ namespace CRUD_DAL.Repository
                 return null;
             }
         }
-        //public UserWithRoel GetUserWithRole()
-    }
+        public SignUpUserVM GetUserWithRole(int? userId, string emailOrMobile, string password)
+		{
+            var query = from u in _dbContext.Users
+                        join r in _dbContext.RoleEnrollments on u.Id equals r.UserId
+                        join e in _dbContext.Roles on r.RoleId equals e.Id
+                        where (userId != null ? u.IsDeleted == false && u.Id == userId : u.IsDeleted == false &&
+                        (u.Email == emailOrMobile && u.IsEmailConfirm == true) || 
+                        (u.Mobile == emailOrMobile && u.IsMobileConfirm == true) && u.Password == password)
+                        select new SignUpUserVM()
+                        {
+                            id = u.Id,
+                            email = u.Email,
+                            mobile = u.Mobile,
+                            fullname = u.FullName,
+                            password = u.Password,
+                            userRole = e.Id,
+                            roleName = e.Title
+                        };
+            SignUpUserVM data = query.FirstOrDefault();
+            return data;
+        }
+
+		
+	}
 }
