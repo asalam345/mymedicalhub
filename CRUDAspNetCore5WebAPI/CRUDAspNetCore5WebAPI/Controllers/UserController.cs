@@ -1,6 +1,5 @@
-﻿using CRUD_BAL.Service;
-using CRUD_DAL.Interface;
-using CRUD_DAL.Models;
+﻿using Domains;
+using Interfaces.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
@@ -8,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ViewModels;
 
 namespace CRUDAspNetCore5WebAPI.Controllers
 {
@@ -15,10 +15,10 @@ namespace CRUDAspNetCore5WebAPI.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly UserService _userService;
-        private readonly RoleEnrollService _roleEnrollService;
+        private readonly IUserService _userService;
+        private readonly IRoleEnrollService _roleEnrollService;
 
-        public UserController(UserService userService, RoleEnrollService roleEnrollService)
+        public UserController(IUserService userService, IRoleEnrollService roleEnrollService)
         {
             _userService = userService;
             _roleEnrollService = roleEnrollService;
@@ -40,11 +40,11 @@ namespace CRUDAspNetCore5WebAPI.Controllers
         }
         //Delete User
         [HttpPut("UpdateUser")]
-        public bool UpdateUser(User Object)
+        public bool UpdateUser(SignUpUserVM userVM)
         {
             try
             {
-                _userService.UpdateUser(Object);
+                _userService.UpdateUser(userVM);
                 return true;
             }
             catch (Exception)
@@ -52,20 +52,6 @@ namespace CRUDAspNetCore5WebAPI.Controllers
                 return false;
             }
         }
-       
-        //GET All User by Name
-        //[HttpGet("GetAllUserByName")]
-        //public Object GetAllUserByName(string emailOrMobile, string password)
-        //{
-        //    var data = _userService.GetUserByEmailOrMobileAndPassword(emailOrMobile, password);
-        //    var json = JsonConvert.SerializeObject(data, Formatting.Indented,
-        //        new JsonSerializerSettings()
-        //        {
-        //            ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-        //        }
-        //    );
-        //    return json;
-        //}
 
         //GET All User
         [HttpGet("GetAllUsers")]

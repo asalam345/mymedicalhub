@@ -1,4 +1,4 @@
-﻿using CRUD_BAL.Service;
+﻿using Interfaces.Service;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
@@ -13,8 +13,8 @@ namespace CRUDAspNetCore5WebAPI.Controllers
 	[Consumes("application/json")]
 	public class RoleController : ControllerBase
 	{
-		private readonly RoleService _roleService;
-		public RoleController(RoleService roleService)
+		private readonly IRoleService _roleService;
+		public RoleController(IRoleService roleService)
 		{
 			_roleService = roleService;
 		}

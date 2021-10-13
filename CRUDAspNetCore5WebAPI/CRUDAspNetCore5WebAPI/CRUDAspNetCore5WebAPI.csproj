@@ -23,6 +23,8 @@
   <ItemGroup>
     <ProjectReference Include="..\CRUD-BAL\CRUD_BAL.csproj" />
     <ProjectReference Include="..\CRUDDAL\CRUD_DAL.csproj" />
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj" />
+    <ProjectReference Include="..\ViewModels\ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

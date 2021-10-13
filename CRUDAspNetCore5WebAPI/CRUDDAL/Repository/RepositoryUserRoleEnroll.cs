@@ -1,6 +1,6 @@
 ﻿using CRUD_DAL.Data;
-using CRUD_DAL.Interface;
-using CRUD_DAL.Models;
+using Domains;
+using Interfaces.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

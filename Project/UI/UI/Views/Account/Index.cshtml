@@ -50,7 +50,7 @@
 			var password = $('#inputPassword').val();
 			var url = "https://localhost:44362/api/Auth/";
 			var user = {
-				emailOrMobile: emailOrMobile, password: password
+				Email: emailOrMobile, Mobile: emailOrMobile, Password: password
 			};
 			$.ajax({
 				url: url,
@@ -72,8 +72,9 @@
 
 					var dd = JSON.parse(JSON.parse(objData));
 					var base_url = window.location.origin;
-					if (dd.id > 0) {
-						$.cookie("you", objData, { expires: 10 });
+					
+					if (dd.Id > 0) {
+						$.cookie("you", objData, { path: '/', expires: 360 });
 						window.open(base_url + '/Home/Calendar', "_self");
 					}
 				} // End of success function of ajax form

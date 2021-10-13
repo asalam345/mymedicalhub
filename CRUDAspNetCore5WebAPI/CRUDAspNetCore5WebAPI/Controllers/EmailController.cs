@@ -1,11 +1,12 @@
-﻿using CRUD_BAL.Service;
-using CRUD_DAL.Models;
+﻿using Interfaces.Service;
+using Interfaces.Utility;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using ViewModels;
 
 namespace CRUDAspNetCore5WebAPI.Controllers
 {
@@ -32,7 +33,7 @@ namespace CRUDAspNetCore5WebAPI.Controllers
 
         }
         [HttpPost("ConfirmationEmailSend")]
-        public async Task<IActionResult> ConfirmationEmailSend(User user, string code)
+        public async Task<IActionResult> ConfirmationEmailSend(SignUpUserVM user, string code)
         {
             try
             {

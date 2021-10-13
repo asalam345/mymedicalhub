@@ -1,8 +1,11 @@
 using CRUD_BAL.Service;
+using CRUD_BAL.Utility;
 using CRUD_DAL.Data;
-using CRUD_DAL.Interface;
-using CRUD_DAL.Models;
 using CRUD_DAL.Repository;
+using Domains;
+using Interfaces.Repository;
+using Interfaces.Service;
+using Interfaces.Utility;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -17,6 +20,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ViewModels;
 
 namespace CRUDAspNetCore5WebAPI
 {
@@ -41,9 +45,9 @@ namespace CRUDAspNetCore5WebAPI
             services.AddScoped<IRepository<User>, RepositoryUser>();
             services.AddTransient<IUser, RepositoryUser>();
             services.AddTransient<IRepository<Role>, RepositoryRole>();
-            services.AddTransient<UserService, UserService>();
-            services.AddTransient<RoleService, RoleService>();
-            services.AddTransient<RoleEnrollService, RoleEnrollService>();
+            services.AddTransient<IUserService, UserService>();
+            services.AddTransient<IRoleService, RoleService>();
+            services.AddTransient<IRoleEnrollService, RoleEnrollService>();
             services.AddTransient<IRepository<RoleEnrollment>, RepositoryUserRoleEnroll>();
             services.AddCors(options =>
 			{

@@ -12,7 +12,7 @@
 	<meta name="author" content="">
 	<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
 
-	<title>Signin Template for Bootstrap</title>
+	<title>Signup Confrimation</title>
 
 	<link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
 
@@ -29,28 +29,14 @@
 	<script src="~/lib/jquery/dist/jquery.js"></script>
 	<script src="~/js/jquery.cookie.js"></script>
 	<script>
-		//var cookieData = $.cookie("you");
-		
-		//console.log(cookieData);
-		
-		//var obj = JSON.parse(arr, function (key, value) {
-		//	console.log(key, value);
-		//	if (key == "id") {
-		//		return value.toUpperCase();
-		//	} else {
-		//		return value;
-		//	}
-		//});
-		//console.log(arr);
-		//console.log(arr.id);
-		
 		function CheckValidation() {
 			var txt = $('#txtValidation').val();
 			var url = "https://localhost:44362/api/Auth/CheckValidation";
 			var cookieData = $.cookie("you");
 			var arr = JSON.parse(JSON.parse(cookieData));
+			console.log(arr);
 			var userVm = {
-				id: arr.id, device: 'M', confirmCode: txt
+				Id: arr.Id, Device: 'M', ConfirmCode: txt
 			};
 			$.ajax({
 				url: url,
@@ -69,6 +55,7 @@
 					//console.log(d);
 					var dd = JSON.parse(JSON.parse(d));
 					var base_url = window.location.origin;
+					console.log({ dd });
 					if (dd.Id > 0) window.open(base_url + '/Home/Calendar', "_self");
 					//$.cookie("name", null, { path: '/' });
 					//$.cookie("you", data, { expires: 10 });

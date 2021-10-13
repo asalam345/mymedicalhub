@@ -1,4 +1,4 @@
-﻿using CRUD_DAL.Models;
+﻿using Domains;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

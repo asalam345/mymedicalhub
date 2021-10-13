@@ -1,11 +1,13 @@
-﻿using CRUD_BAL.Service;
-using CRUD_DAL.Models;
+﻿using CRUD_BAL.Utility;
+using Interfaces.Service;
+using Interfaces.Utility;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ViewModels;
 
 namespace CRUDAspNetCore5WebAPI.Controllers
 {
@@ -14,11 +16,11 @@ namespace CRUDAspNetCore5WebAPI.Controllers
 	[Consumes("application/json")]
 	public class AuthController : ControllerBase
 	{
-        private readonly UserService _userService;
-        private readonly RoleEnrollService _roleEnrollService;
+        private readonly IUserService _userService;
+        private readonly IRoleEnrollService _roleEnrollService;
         private readonly IMailService _mailService;
 
-        public AuthController(UserService userService, RoleEnrollService roleEnrollService, IMailService mailService)
+        public AuthController(IUserService userService, IRoleEnrollService roleEnrollService, IMailService mailService)
 		{
             _userService = userService;
             _roleEnrollService = roleEnrollService;
@@ -37,17 +39,17 @@ namespace CRUDAspNetCore5WebAPI.Controllers
                 }
                 else
                 {
-                    userVm.id = result.id;
-                    RoleEnrollment roleEnroll = new RoleEnrollment()
+                    userVm.Id = result.Id;
+                    RoleEnrollmentVM roleEnroll = new RoleEnrollmentVM()
                     {
-                        UserId = result.id,
-                        RoleId = userVm.userRole
+                        UserId = result.Id,
+                        RoleId = userVm.UserRole
                     };
                     await _roleEnrollService.AddRoleEnrollment(roleEnroll);
                     string code = RandomService.RandomPassword();
-                    RegConfirmation regCon = new RegConfirmation()
+                    RegConfirmationVM regCon = new RegConfirmationVM()
                     {
-                        UserId = result.id,
+                        UserId = result.Id,
                         Device = 'M',
                         Code = code
                     };
@@ -58,9 +60,9 @@ namespace CRUDAspNetCore5WebAPI.Controllers
                     }
                     MailRequest request = new MailRequest()
                     {
-                        ToEmail = result.email,
+                        ToEmail = result.Email,
                         Subject = "Your Account Confirmation Email",
-                        Body = @"<h1>Welcome " + userVm.fullname + "!</h1> <h3> Your Confrimation Code Is " + code + "</h3> <br/><p>Thanks</p><p>My Medical HUB</p><p style='color:red;'>If your don't registed to mymedicalhub.com. Please ignore this mail!</p>"
+                        Body = @"<h1>Welcome " + userVm.FullName + "!</h1> <h3> Your Confrimation Code Is " + code + "</h3> <br/><p>Thanks</p><p>My Medical HUB</p><p style='color:red;'>If your don't registed to mymedicalhub.com. Please ignore this mail!</p>"
                     };
                     await _mailService.SendEmailAsync(request);
                     //EmailController email = new EmailController(_mailService);
@@ -81,9 +83,9 @@ namespace CRUDAspNetCore5WebAPI.Controllers
             }
         }
         [HttpPost]
-        public Object LoginUser(UserVM user)
+        public Object LoginUser(SignUpUserVM user)
         {
-            var data = _userService.GetUserByEmailOrMobileAndPassword(user.emailOrMobile, user.password);
+            var data = _userService.GetUserByEmailOrMobileAndPassword(user.Email, user.Mobile, user.Password);
             var json = JsonConvert.SerializeObject(data, Formatting.Indented,
                 new JsonSerializerSettings()
                 {
@@ -95,28 +97,24 @@ namespace CRUDAspNetCore5WebAPI.Controllers
         [HttpPost("CheckValidation")]
         public Object CheckValidation(SignUpUserVM userVm)
 		{
-            RegConfirmation regCon = new RegConfirmation()
+            RegConfirmationVM regCon = new RegConfirmationVM()
             {
-                UserId = userVm.id,
-                Device = userVm.device,
-                Code = userVm.confirmCode
+                UserId = userVm.Id,
+                Device = userVm.Device,
+                Code = userVm.ConfirmCode
             };
 			if (_userService.DeviceConfirm(regCon))
 			{
-                var user = _userService.GetUserByUserId(userVm.id);
-                User updateData = new User()
-                {
-                    Id = userVm.id,
-                    Email = user.Email,
-                    Mobile = user.Mobile,
-                    Password = user.Password,
-                    FullName = user.FullName,
-                    IsEmailConfirm = true
-                };
-                var updateUser = _userService.UpdateUser(updateData);
+                var user = _userService.GetUserByUserId(userVm.Id);
+                userVm.Email = user.Email;
+                userVm.Mobile = user.Mobile;
+                userVm.FullName = user.FullName;
+                userVm.Password = user.Password;
+                userVm.IsEmailConfirm = true;
+                var updateUser = _userService.UpdateUser(userVm);
                 if(updateUser)
 				{
-                    return LoginUser(new UserVM() { emailOrMobile = user.Email, password = user.Password });
+                    return LoginUser(userVm);
                 }
             }
 

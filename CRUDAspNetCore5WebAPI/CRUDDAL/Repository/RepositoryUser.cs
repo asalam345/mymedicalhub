@@ -1,6 +1,6 @@
 ﻿using CRUD_DAL.Data;
-using CRUD_DAL.Interface;
-using CRUD_DAL.Models;
+using Domains;
+using Interfaces.Repository;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -96,26 +96,35 @@ namespace CRUD_DAL.Repository
                 return null;
             }
         }
-        public SignUpUserVM GetUserWithRole(int? userId, string emailOrMobile, string password)
+        public object GetUserWithRole(int? userId, string email, string mobile, string password)
 		{
             var query = from u in _dbContext.Users
                         join r in _dbContext.RoleEnrollments on u.Id equals r.UserId
                         join e in _dbContext.Roles on r.RoleId equals e.Id
                         where (userId != null ? u.IsDeleted == false && u.Id == userId : u.IsDeleted == false &&
-                        (u.Email == emailOrMobile && u.IsEmailConfirm == true) || 
-                        (u.Mobile == emailOrMobile && u.IsMobileConfirm == true) && u.Password == password)
-                        select new SignUpUserVM()
+                        (u.Email == email && u.IsEmailConfirm == true) ||
+                        (u.Mobile == mobile && u.IsMobileConfirm == true) && u.Password == password)
+                        select new
                         {
-                            id = u.Id,
-                            email = u.Email,
-                            mobile = u.Mobile,
-                            fullname = u.FullName,
-                            password = u.Password,
-                            userRole = e.Id,
-                            roleName = e.Title
+                            u.Id,
+                            u.Email,
+                            u.IsEmailConfirm,
+                            e.Title
                         };
-            SignUpUserVM data = query.FirstOrDefault();
-            return data;
+                        //select new 
+                        //{
+                        //    Id = u.Id,
+                        //    Email = u.Email,
+                        //    Mobile = u.Mobile,
+                        //    FullName = u.FullName,
+                        //    Password = u.Password,
+                        //    UserRole = e.Id,
+                        //    RoleName = e.Title,
+                        //    IsEmailConfirm = u.IsEmailConfirm,
+                        //    IsMobileConfirm = u.IsMobileConfirm
+                        //}); 
+            //SignUpUserVM data = query.FirstOrDefault();
+            return query.FirstOrDefault();
         }
 
 		

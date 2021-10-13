@@ -96,7 +96,7 @@
 			var url = "https://localhost:44362/api/Auth/AddUser";
             if (password === cpassword) {
                 var user = {
-					email: email, mobile: mobile, fullname: name, password: password, userRole: userRole
+					Email: email, Mobile: mobile, FullName: name, Password: password, UserRole: userRole
                 };
 				//var user = {
 				//	"": email, "": mobile, "": name, "": password
@@ -119,7 +119,7 @@
 						console.log(data, status);
 						var objData = JSON.stringify(data);
 						if (data != null) {
-							$.cookie("you", objData, { expires: 10 });
+							$.cookie("you", objData, { path: '/', expires: 360 });
 							var base_url = window.location.origin;
 							window.open(base_url + '/Account/CheckUserValidation', "_self");
 						}

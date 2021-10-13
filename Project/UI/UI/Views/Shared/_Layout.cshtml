@@ -45,10 +45,7 @@
 		</header>
 		@RenderBody()
 	</main>
-	@*<main >
-			@RenderBody()
-		</main>*@
-
+	
 	<footer class="border-top footer text-muted">
 		<div class="container">
 			&copy; 2021 - UI - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -68,26 +65,28 @@
 		var base_url = window.location.origin;
 		$(document).ready(function () {
 			var cookieData = $.cookie("you");
-			if (cookieData == undefined) window.open(base_url, "_self");
+			console.log({ cookieData });
+			if (cookieData == undefined) {
+				window.open(base_url, "_self");
+			}
 			else {
 				var arr = JSON.parse(JSON.parse(cookieData));
 				if (arr == null) window.open(base_url, "_self");
-				console.log(arr);
+				console.log({ arr });
 				
 				var sidebar = [];
-				if (arr.roleName == 'Doctor') {
+				if (arr.RoleName == 'Doctor') {
 					sidebar = sidebarDoctor;
 				}
 				else {
 					sidebar = sidebarPatient;
 				}
-				console.log(sidebar);
+				//console.log({ sidebar });
 				initNavItem(sidebar);
-				$('#yourName').text(arr.fullname);
+				$('#yourName').text(arr.FullName);
 			}
 		});
 		function Logout() {
-			//$.removeCookie('you');
 			$.cookie("you", '', { path: '/', expires: -1 });
 			window.open(base_url, "_self");
 		}
