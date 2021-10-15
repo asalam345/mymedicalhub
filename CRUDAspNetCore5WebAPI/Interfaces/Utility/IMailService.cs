@@ -11,5 +11,6 @@ namespace Interfaces.Utility
     {
         Task SendEmailAsync(MailRequest mailRequest);
         Task SendConfirmationEmailAsync(SignUpUserVM request, string code);
+        bool EmailIsValid(string email);
     }
 }

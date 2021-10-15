@@ -37,6 +37,7 @@
 				<input type="checkbox" value="remember-me"> Remember me
 			</label>
 			<a href="">Forget Password?</a>
+			<a href="">Resend Email Confirmation</a>
 		</div>
 		<button id="signIn" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
 		<p class="mt-5 mb-3 text-muted">No Account Please <a asp-controller="Account" asp-action="Signup">Sign Up</a></p>
@@ -67,16 +68,24 @@
 					"Access-Control-Allow-Origin": "*"
 				},
 				success: function (data, status) {
-					console.log(data, status);
-					var objData = JSON.stringify(data);
-
-					var dd = JSON.parse(JSON.parse(objData));
+					//console.log(data, status);
+					//var objData = JSON.stringify(data);
+					var result = JSON.parse(data);
+					console.log(result.Result);
+					console.log(result.Email);
+					console.log(result);
 					var base_url = window.location.origin;
-					
-					if (dd.Id > 0) {
-						$.cookie("you", objData, { path: '/', expires: 360 });
+					if (result.Result) {
+						$.cookie("you", result.Token, { path: '/', expires: 7 });
 						window.open(base_url + '/Home/Calendar', "_self");
 					}
+					else {
+						if (result.Message.indexOf('not confirmed!') != -1) {
+							$.cookie("email", result.Email, { path: '/', expires: 1 });
+							window.open(base_url + '/Account/CheckUserValidation', "_self");
+						}
+					}
+					//}
 				} // End of success function of ajax form
 			}); // End of ajax call
 		});

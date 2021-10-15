@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domains;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,5 +17,6 @@ namespace Interfaces.Service
 		bool DeviceConfirm(RegConfirmationVM regCon);
 		bool DeleteUser(string UserEmail);
 		bool UpdateUser(SignUpUserVM userVM);
+		SignUpUserVM GetUserByEmailOrMobile(string emailOrMobile, bool isEmail);
 	}
 }

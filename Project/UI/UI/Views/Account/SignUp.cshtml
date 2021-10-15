@@ -49,9 +49,9 @@
 	<div class="form-signin">
 		<img class="mb-1" src="~/images/logo.png" alt="" width="200" height="72">
 		<h1 class="h3 mb-2 font-weight-normal">Please sign up</h1>
-		
+
 		<div style="display: flex; flex-direction: row; justify-content: flex-start; " id="divMemeberType"><span style="margin-right:10px;">Signup As A</span></div>
-		
+
 		<label for="inputEmail" class="sr-only">Email</label>
 		<input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email" required autofocus>
 		<label for="inputMobile" class="sr-only">Mobile</label>
@@ -63,11 +63,13 @@
 		<label for="inputConfirmPassword" class="sr-only">Confirm Password</label>
 		<input type="password" id="inputConfirmPassword" name="confirmpassword" class="form-control" placeholder="Confirm Password" required>
 		<button id="signUp" class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+		
 		<p class="mt-3 mb-3 text-muted">Have An Account Please <a asp-controller="Account" asp-action="Index">Sign In</a></p>
+		<p class="mt-3 mb-3 text-muted">Have An Account But Not Email Confirmed? <a asp-controller="Account" asp-action="Index">Resend Email Confirmation</a></p>
 		<p class="mt-1 mb-1 text-muted">&copy; 2021</p>
 	</div>
 	<script src="~/lib/jquery/dist/jquery.js"></script>
-	<script src="~/js/jquery.cookie.js"></script>
+	@*<script src="~/js/jquery.cookie.js"></script>*@
 	<script>
 		$(document).ready(function () {
 			var url = "https://localhost:44362/api/Role/GetRoles";
@@ -115,16 +117,16 @@
                         "accept": "application/json",
                         "Access-Control-Allow-Origin": "*"
                     },
-                    success: function (data, status) {
-						console.log(data, status);
+					success: function (data, status) {
 						var objData = JSON.stringify(data);
-						if (data != null) {
-							$.cookie("you", objData, { path: '/', expires: 360 });
-							var base_url = window.location.origin;
+						var result = JSON.parse(JSON.parse(objData));
+						var base_url = window.location.origin;
+						if (result.Result) {
+							$.cookie("email", result.Email, { path: '/', expires: 1 });
 							window.open(base_url + '/Account/CheckUserValidation', "_self");
 						}
 						else {
-							alert('Invalid Data!');
+							alert(result.Message);
 						}
                     } // End of success function of ajax form
                 }); // End of ajax call

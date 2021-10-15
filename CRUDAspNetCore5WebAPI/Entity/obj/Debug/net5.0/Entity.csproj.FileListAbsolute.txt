@@ -1,0 +1,16 @@
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.AssemblyInfoInputs.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.AssemblyInfo.cs
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.csproj.CoreCompileInputs.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\bin\Debug\net5.0\Entity.deps.json
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\bin\Debug\net5.0\Entity.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\bin\Debug\net5.0\ref\Entity.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\bin\Debug\net5.0\Entity.pdb
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\staticwebassets\Entity.StaticWebAssets.Manifest.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\staticwebassets\Entity.StaticWebAssets.xml
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\scopedcss\bundle\Entity.styles.css
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.RazorTargetAssemblyInfo.cache
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\ref\Entity.dll
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.pdb
+E:\Practices\0 .net core\mymedicalhub\CRUDAspNetCore5WebAPI\Entity\obj\Debug\net5.0\Entity.csproj.AssemblyReference.cache

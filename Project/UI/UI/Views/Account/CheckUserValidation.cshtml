@@ -26,17 +26,19 @@
 <body class="text-center">
 	<input type="text" id="txtValidation" />
 	<button onclick="CheckValidation()">Submit</button>
+	<a href="">Resend Email Confirmation</a>
 	<script src="~/lib/jquery/dist/jquery.js"></script>
 	<script src="~/js/jquery.cookie.js"></script>
 	<script>
 		function CheckValidation() {
 			var txt = $('#txtValidation').val();
 			var url = "https://localhost:44362/api/Auth/CheckValidation";
-			var cookieData = $.cookie("you");
-			var arr = JSON.parse(JSON.parse(cookieData));
-			console.log(arr);
+			var email = $.cookie("email");
+			//console.log(cookieData);
+			//var email = JSON.parse(cookieData);
+			//console.log(email);
 			var userVm = {
-				Id: arr.Id, Device: 'M', ConfirmCode: txt
+				Email:email, Device: 'E', ConfirmCode: txt
 			};
 			$.ajax({
 				url: url,
@@ -50,13 +52,13 @@
 					"Access-Control-Allow-Origin": "*"
 				},
 				success: function (data, status) {
-					//console.log(data, status);
-					var d = JSON.stringify(data);
-					//console.log(d);
-					var dd = JSON.parse(JSON.parse(d));
+					console.log(data, status);
+					//var d = JSON.stringify(data);
+					////console.log(d);
+					//var dd = JSON.parse(JSON.parse(d));
 					var base_url = window.location.origin;
-					console.log({ dd });
-					if (dd.Id > 0) window.open(base_url + '/Home/Calendar', "_self");
+					//console.log({ dd });
+					if (data) window.open(base_url + '/', "_self");
 					//$.cookie("name", null, { path: '/' });
 					//$.cookie("you", data, { expires: 10 });
 				} // End of success function of ajax form

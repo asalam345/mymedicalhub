@@ -70,25 +70,56 @@
 				window.open(base_url, "_self");
 			}
 			else {
-				var arr = JSON.parse(JSON.parse(cookieData));
-				if (arr == null) window.open(base_url, "_self");
-				console.log({ arr });
+				//var arr = JSON.parse(JSON.parse(cookieData));
+				//if (arr == null) window.open(base_url, "_self");
+				//console.log({ arr });
+				var url = "https://localhost:44362/api/Dashboard/page";
+				$.ajax({
+					url: url,
+					type: 'GET',
+					beforeSend: function (xhr) {
+						xhr.setRequestHeader('Authorization', cookieData);
+					},
+					data: {},
+					success: function (data) {
+						var sidebar = [];
+						//console.log(data);
+						var result = JSON.parse(data)
+						if (result[1] == 'Doctor') {
+							sidebar = sidebarDoctor;
+						}
+						else {
+							sidebar = sidebarPatient;
+						}
+						//console.log({ sidebar });
+						initNavItem(sidebar);
+						$('#yourName').text(result[0]);
+						user(result[1], cookieData);
+					},
+					error: function () { },
+				});
+
 				
-				var sidebar = [];
-				if (arr.RoleName == 'Doctor') {
-					sidebar = sidebarDoctor;
-				}
-				else {
-					sidebar = sidebarPatient;
-				}
-				//console.log({ sidebar });
-				initNavItem(sidebar);
-				$('#yourName').text(arr.FullName);
 			}
 		});
 		function Logout() {
 			$.cookie("you", '', { path: '/', expires: -1 });
 			window.open(base_url, "_self");
+		}
+		function user(p, token) {
+			var url = "https://localhost:44362/api/"+p;
+			$.ajax({
+				url: url,
+				type: 'GET',
+				beforeSend: function (xhr) {
+					xhr.setRequestHeader('Authorization', token);
+				},
+				data: {},
+				success: function (data) {
+					console.log(data);
+				},
+				error: function () { },
+			});
 		}
 	</script>
 	<script src="~/dashboard/js/index.js"></script>

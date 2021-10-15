@@ -21,6 +21,7 @@ namespace CRUDAspNetCore5WebAPI
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    //webBuilder.UseUrls("https://localhost:44362");
                 });
     }
 }
