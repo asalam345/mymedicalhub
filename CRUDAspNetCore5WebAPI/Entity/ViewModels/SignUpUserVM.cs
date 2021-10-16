@@ -26,6 +26,7 @@ namespace ViewModels
         public string Token { get; set; }
         public string Message { get; set; }
         public bool Result { get; set; }
-        //public RoleEnum Role { get; set; }
+        public int UserRole { get; set; }//set from UI for Role
+        public string LoginByDevice { get; set; }
     }
 }

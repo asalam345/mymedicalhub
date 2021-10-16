@@ -1,0 +1,11 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "A role base API Calling angular project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "asalam345.github.io",
+  "license": "ISC"
+}

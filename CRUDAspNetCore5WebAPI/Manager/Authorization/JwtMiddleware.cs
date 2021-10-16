@@ -21,15 +21,24 @@ namespace Manager.Authorization
 
         public async Task Invoke(HttpContext context, IUserService userService, IJwtUtils jwtUtils)
         {
-            var token = context.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
-            var userId = jwtUtils.ValidateJwtToken(token);
-            if (userId != null)
-            {
-                // attach user to context on successful jwt validation
-                context.Items["User"] = userService.GetUserByUserId(userId.Value);
-            }
+			try
+			{
+                var token = context.Request.Headers["Authorization"].FirstOrDefault()?.Split(" ").Last();
+                var userId = jwtUtils.ValidateJwtToken(token);
+                if (userId != null)
+                {
+                    // attach user to context on successful jwt validation
+                    context.Items["User"] = userService.GetUserByUserId(userId.Value);
+                }
 
-            await _next(context);
+                await _next(context);
+            }
+			catch (System.Exception)
+			{
+
+				throw;
+			}
+            
         }
     }
 }
